@@ -1,0 +1,16 @@
+<h1> Simple Calculator</h>
+
+#!/bin/bash
+
+
+#NUM1=30
+#NUM2=20
+
+read -p 'Please Enter the Number: ' NUM1
+read -p 'Please Enter the Number: ' NUM2
+
+echo "The SUM is `expr ${NUM1} + ${NUM2}`"
+echo "The DIFF is `expr ${NUM1} - ${NUM2}`"
+echo "The DIVISION is `expr ${NUM1} / ${NUM2}`"
+echo "The PRODUCT is `expr ${NUM1} \* ${NUM2}`"
+echo "The Remainder is `expr ${NUM1} % ${NUM2}`"
